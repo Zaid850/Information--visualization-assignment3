@@ -1,19 +1,17 @@
 # D3.js Visualization – Youth Smoking Prevalence Trends (2020–2024)
 
-This repository is where my personal Assignment 3 (D3.js Visualization) implementation can be found.  
-This assignment aims to develop an interactive and animated visualization with D3.js based on the data chosen in our team project.  
-The type of visualization I have chosen is a **Line Chart**, which is unique among my team members.
+This repository is where my personal Assignment 3 (D3.js Visualization) implementation can be found. This assignment aims to develop an interactive and animated visualization with D3.js on the basis of the data that was chosen in our team project. The type of visualization I have chosen is Line Chart and this is unique among my team members.
 
 ---
 
 ## Project Overview
 
-The graph represents the trend of youth smoking from 2020–2024.  
-It shows how smoking rates change over time and helps identify increasing or decreasing trends.
+The graph represents the trend of youth smoking in 2020–2024. It shows the change in the smoking rates with time and helps define the growing or falling trends.
 
-### The visualization includes:
-- A curve representing annual smoking prevalence  
-- Red circles as data points  
+The visualization includes:
+
+- A curve between the annual smoking prevalence  
+- Red circles to represent data points  
 - Smooth animations  
 - Interactive tooltip on hover  
 - Clean layout with axis labels and gridlines  
@@ -22,22 +20,22 @@ It shows how smoking rates change over time and helps identify increasing or dec
 
 ## Dataset Information
 
-**Dataset:** `youth_smoking_drug_data_10000_rows_expanded.csv`  
-**Folder:** `/data`
+Dataset: `youth_smoking_drug_data_10000_rows_expanded.csv`  
+Folder = data  
 
 ---
 
-### Data Processing Steps
-- Transformed numeric data (`Year`, `Smoking_Prevalence`) into numbers  
-- Filtered dataset to consider only `Gender = "Both"`  
-- Calculated annual means using D3 rollup functions  
+### Data Processing steps
+
+- Went through numeric data (Year, Smoking Prevalence) and transformed it into numbers.  
+- Filled dataset to consider only gender = "Both".  
+- Calculated annual means with the help of D3 rollup functions.  
 
 ---
 
 ## Visualization Design
 
-### Type
-**Line Chart**
+### Type: Line Chart
 
 ---
 
@@ -48,7 +46,7 @@ It shows how smoking rates change over time and helps identify increasing or dec
 | Blue line | Trend of smoking prevalence |
 | Red circles | Data points |
 | X-axis | Years |
-| Y-axis | Smoking prevalence (%) |
+| Y-axis | Smoking prevalence |
 | Gridlines | Improve readability |
 
 ---
@@ -58,13 +56,13 @@ It shows how smoking rates change over time and helps identify increasing or dec
 This visualization includes the following interactions:
 
 ### Tooltip on Hover  
-Shows the year and the smoking prevalence value.
+Shows the value of the year and prevalence of smoking.
 
 ### Hover Highlight  
-Circle enlarges when hovered for better visibility.
+On hover, the circle is expanded to make it visible.
 
 ### Tooltip Follows Mouse  
-Tooltip moves with the cursor to improve readability.
+Improves user readability and interaction.
 
 ---
 
@@ -79,4 +77,40 @@ Tooltip moves with the cursor to improve readability.
 ## Source Code Structure
 
 The project folder contains the following files:
+
+├── data
+│ └── youth_smoking_drug_data_10000_rows_expanded.csv
+├── js
+│ └── script.js
+├── image.png
+├── index.html
+├── style.css
+└── README.md
+
+
+---
+
+## Sources Used
+
+I referred to the following resources while building this visualization:
+
+- **W3Schools – JavaScript & SVG basics**  
+  https://www.w3schools.com/
+
+- **GeeksforGeeks – D3.js tutorials and explanations**  
+  https://www.geeksforgeeks.org/d3-js/
+
+- **FreeCodeCamp – D3.js guide and examples**  
+  https://www.freecodecamp.org/news/tag/d3/
+
+- **D3.js Official Documentation**  
+  https://d3js.org/
+
+These resources were used only for understanding concepts.
+
+---
+
+## Use of Generative AI
+
+I used chatgpt for understanding the concepts of D3.js.
 
